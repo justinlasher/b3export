@@ -1,0 +1,26 @@
+{
+	"name": "bc3reports",
+	"version": "0.0.1",
+	"description": "Reporting tool to export info from Basecamp 3",
+	"author": "Justin Lasher",
+	"license": "ISC",
+	"main": "index.js",
+	"scripts": {
+		"dev": "webpack -d --watch",
+		"build" : "webpack -p"
+	},
+	"keywords": [
+		"basecamp3",
+		"api",
+		"export"
+	],
+	"dependencies": {
+		"babel-core": "^6.14.0",
+		"babel-loader": "^6.2.5",
+		"babel-preset-es2015": "^6.14.0",
+		"babel-preset-react": "^6.11.1",
+		"react": "^15.3.1",
+		"react-dom": "^15.3.1",
+		"webpack": "^1.13.2"
+	}
+}
